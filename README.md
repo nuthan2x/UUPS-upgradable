@@ -13,5 +13,5 @@ pizzav2 : 0xb85e47D3328AefA747A169Cf80F9923F67024509 // implementation 2
 pizzav3 : 0x457EE0fd322da0878DAe80C3A499FDea142a7d30 // implementation 3
 
 
- to upgrade the new version of contract should have new functions/storage slots and should inherit the the contract that it is going to upgrade
+ to upgrade, the new version of contract should have new functions/storage slots and should inherit the the contract that it is going to upgrade.
  deploy the upgraded version and go to proxy contract and input new implementation address to UpgradeTO() function.
